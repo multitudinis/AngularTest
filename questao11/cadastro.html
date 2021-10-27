@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Movies Register Form</title>
+    <link rel="stylesheet" href="cadastro.css">
+  </head>
+  <body>
+
+    
+
+    <form class="signup-form" action="/register" method="post">
+
+    
+
+      <!-- form header -->
+      <div class="form-header">
+        <h1>Movies</h1>
+      </div>
+
+      <!-- form body -->
+      <div class="form-body">
+
+        <!-- Movie Title and Staring -->
+        <div class="horizontal-group">
+          <div class="form-group left">
+            <label for="Movie Title" class="label-title">Movie Title</label>
+            <input type="text" id="Movie Title" class="form-input" placeholder="Y tu mamá también" />
+          </div>
+          <div class="form-group right">
+            <label for="Director" class="label-title">Director</label>
+            <input type="text" id="Director" class="form-input" placeholder="Alfonso Cuaró" />
+          </div>
+        </div>
+        
+        <!-- Staring -->
+        <div class="form-group">
+          <label for="Staring" class="label-title">Staring...</label>
+          <input type="Staring" id="Staring" class="form-input" placeholder="Gael García Bernal, Diego Luna, Maribel Verdú">
+        </div>
+
+        <!-- Language and Rentals -->
+        <div class="horizontal-group">
+          <div class="form-group left">
+            <label for="" class="label-title">Language</label>
+            <input type="" id="" class="form-input" placeholder="Spanish">
+          </div>
+          <div class="form-group right">
+            <label for="Rental value" class="label-title">Rental Value</label>
+            <input type="search" class="form-input" id="Rental value" placeholder="$2.50">
+          </div>
+        </div>
+
+        <!-- Gender and Specification -->
+        <div class="horizontal-group2">
+          <div class="form-group left">
+            <label class="label-title">Gender:</label>
+            <div class="input-group">
+              <label for="Horror"><input type="radio" name="gender" value="Horror" id="Horror"> Horror</label>
+              <label for="Drama"><input type="radio" name="gender" value="Drama" id="Drama"> Drama</label>
+              <label for="Sci-Fi"><input type="radio" name="gender" value="Sci-Fi" id="Sci-Fi"> Sci-Fi</label>
+              <label for="Comedy"><input type="radio" name="gender" value="Comedy" id="Comedy"> Comedy</label>
+              <label for="Romance"><input type="radio" name="gender" value="Romance" id="Romance"> Romance</label>
+              <label for="Action"><input type="radio" name="gender" value="Action" id="Action"> Action</label>
+              <label for="Musical"><input type="radio" name="gender" value="Musical" id="Musical"> Musical</label>
+               
+            </div>
+          </div>
+          <div class="form-group right">
+            <label class="label-title">Specification Type</label>
+            <div >
+              <label><input type="number" value="0035">Movie's Number</label>
+              <label><input type="search" value="VHS">Product's Type</label>
+              <label><input type="search" value="24hours">Movie's Type</label>
+              <label class = "qq1"><input type="search" value="21/10/2002">Register's Date</label>
+            </div>
+          </div>
+        </div>
+
+        <!-- Source of Income and Income -->
+        <div class="horizontal-group">
+          <div class="form-group left" >
+            <label class="label-title">Distributor</label>
+            <select class="form-input" id="level" >
+              <option value="B">Warner</option>
+              <option value="I">Disney</option>
+              <option value="A">ShowTime</option>
+            </select>
+          </div>
+          
+        </div>
+       
+    </div>
+
+        <!-- Profile picture and Age -->
+        <div class="horizontal-group">
+          <div class="img2" >
+            <label class="label-title">Profile Picture</label>
+            <img src="cover.jpeg">
+          </div>         
+        </div>
+ <!-- Bio -->
+ <div class="img2">
+  <label for="choose-file" class="label-title">Cover Photo</label>
+  <button>Imprimir</button>
+</div>
+        <div class="form-group right">
+          <label for="experience" class="label-title">Registers Total</label>
+          <label><input type="number" value="0035"></label>
+        </div>
+    
+
+      <!-- form-footer -->
+      <div class="table">
+        <p class="scroll">
+        <table>
+          <tr>
+            <th>Movie's Number</th>
+            <th>Movie's Title</th>
+            <th>Rental's Value</th>
+            <th>Register's Date</th>
+          </tr>
+          <tr>
+            <td>0035</td>
+            <td>Y tu mamá también</td>
+            <td>$2.50</td>
+            <td>02/04/2006</td>
+          </tr>
+          <tr>
+            <td>0036</td>
+            <td>+ Fast + Furious</td>
+            <td>$2.50</td>
+            <td>07/02/2012</td>
+          </tr>
+          <tr>
+            <td>0037</td>
+            <td>Cidade de Deus</td>
+            <td>$2.50</td>
+            <td>08/08/2007</td>
+          </tr>
+        </table>
+        </p>
+      </div>
+
+    </form>
+  <!-- form-navi -->
+  <div class="form-navi">
+    <button type="submit" class="btn">New</button>
+    <button type="submit" class="btn">Open</button>
+    <button type="submit" class="btn">Save</button>
+    <button type="submit" class="btn">Delete</button>
+    <button type="submit" class="btn">Cancel</button>
+  </div>  
+    <!-- Script for range input label -->
+    <script>
+      var rangeLabel = document.getElementById("range-label");
+      var experience = document.getElementById("experience");
+
+      function change() {
+      rangeLabel.innerText = experience.value + "K";
+      }
+    </script>
+
+  </body>
+</html>

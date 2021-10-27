@@ -1,0 +1,37 @@
+.wrapper {
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    grid-auto-columns: minmax(200px, auto);
+    grid-template-areas:
+        "on on tw tw"
+        "on on tw tw"
+        "on on th th"
+        "on on th th"
+}
+
+.one {
+    background-color: blue;
+    border: 7px solid rgb(0, 102, 128);
+    border-radius: 25px;
+    grid-area: on;
+}
+
+.two {
+    background:linear-gradient(to right, #ffffff 0%, #7780fc 50%, #2c08fd 99%);
+    border: 7px solid rgb(0, 102, 128);
+    border-radius: 25px;
+    grid-area: tw;
+}
+
+.three {
+    text-align: center;
+    text-transform: uppercase;
+    color: yellow;
+    background-image: url("swan.jpg");
+    border: 7px solid rgb(0, 102, 128);
+    border-radius: 25px;
+    grid-area: th;
+}

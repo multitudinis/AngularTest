@@ -1,0 +1,49 @@
+{
+  "movies": [
+    {
+      "name": "The Shining",
+      "year": "1980",
+      "director": "Stanley Kubrick",
+      "gender": "Horror",
+      "description": "A family heads to an isolated hotel for the winter where a sinister presence influences the father into violence, while his psychic son sees horrific forebodings from both past and future.",
+      "poster": "../../../../assets/imagem/cover1.jpeg",
+      "id": "iET7qiu"
+    },
+    {
+      "name": "La piel que habito",
+      "year": "2011",
+      "director": "Pedro Almodovar",
+      "gender": "Horror, Thriller, Drama",
+      "description": "Um evento traumático arruina o estranho relacionamento entre um cirurgião plástico e a mulher que ele mantém presa em sua luxuosa mansão. poster",
+      "poster": "../../../../assets/imagem/cover2.jpeg",
+      "id": "Sz_lDRy"
+    },
+    {
+      "name": "Y tu mamá también",
+      "year": "2001",
+      "director": "Alfonso Cuaró",
+      "gender": "Drama",
+      "description": "Julio e Tenoch são dois adolescentes que, junto com Luisa, uma mulher mais velha, embarcam em uma jornada para uma praia paradisíaca. Em uma viagem de carro pelo México, os três acabam se envolvendo e aprendem muito sobre si mesmos e suas relações.",
+      "poster": "../../../../assets/imagem/cover3.jpeg",
+      "id": "AC13SdQ"
+    },
+    {
+      "name": "Cidade de Deus",
+      "year": " 2002",
+      "director": "ernando Meirelles",
+      "gender": "Drama, Crime",
+      "description": "Buscapé é um jovem pobre, negro e sensível, que cresce em um universo de muita violência. Ele vive na Cidade de Deus, favela carioca conhecida por ser um dos locais mais violentos do Rio. Amedrontado com a possibilidade de se tornar um bandido, Buscapé é salvo de seu destino por causa de seu talento como fotógrafo, o qual permite que siga carreira na profissão. É por meio de seu olhar atrás da câmera que ele analisa o dia a dia da favela em que vive, onde a violência aparenta ser infinita.",
+      "poster": "../../../../assets/imagem/cover4.jpeg",
+      "id": "011tofI"
+    },
+    {
+      "name": "O Escafandro e a Borboleta",
+      "year": "2007",
+      "director": "Julian Schnabel",
+      "gender": "Drama",
+      "description": "Aos 43 anos de idade, o editor-chefe da revista Elle, Jean-Dominique Bauby, tem um derrame devastador que o deixa paralisado e dependente, algo frustrante para um homem conhecido por aproveitar demasiadamente a vida. A única coisa capaz de mover é o olho esquerdo. Então ele aprende a se comunicar piscando e escreve um livro de memórias.",
+      "poster": "../../../../assets/imagem/cover5.jpg",
+      "id": "FyTpIxi"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+<mat-card>
+    <mat-card-title>Alterar Filme</mat-card-title>
+    <form>
+        <mat-form-field>
+            <input matInput placeholder="Nome"
+                [(ngModel)]="movie.name" name="name">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Year"
+                [(ngModel)]="movie.year" name="year">
+        </mat-form-field>
+    </form>
+    <button mat-raised-button (click)="updatemovie()" color="primary">
+        Atualizar
+    </button>
+    
+    <button mat-raised-button (click)="cancel()">
+        Cancelar
+    </button>
+</mat-card>
